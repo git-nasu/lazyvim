@@ -9,5 +9,7 @@
 -- vim.cmd([[let &t_Ce = "\e[4:0m"]])
 
 vim.opt.relativenumber = false
+vim.opt.virtualedit = 'onemore'
 vim.opt.termguicolors = true
+vim.opt.clipboard.append { "unnamedplus" }
 
