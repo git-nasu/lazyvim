@@ -44,6 +44,5 @@ keymap.set('v','<A-j>',':m .+1<CR>==',opts)
 keymap.set('v','<A-k>',':m .-2<CR>==',opts)
 keymap.set('v','p','"_dp',opts)
 
---zenmode keymap
-keymap.set('n','<C-w>','<Cmd>ZenMode<CR>',opts)
+
 
