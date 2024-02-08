@@ -11,5 +11,5 @@
 vim.opt.relativenumber = false
 vim.opt.virtualedit = 'onemore'
 vim.opt.termguicolors = true
-vim.opt.clipboard.append { "unnamedplus" }
+vim.opt.clipboard:append { "unnamedplus" }
 
